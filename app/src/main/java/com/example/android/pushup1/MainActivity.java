@@ -11,8 +11,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    
+
     private void testUpload(){
         Toast.makeText(this, "This is test", Toast.LENGTH_SHORT).show();
+
+        int i = 0;
+        i = i + 1;
+        Toast.makeText(this, "Number: ", Toast.LENGTH_SHORT).show();
     }
 }
